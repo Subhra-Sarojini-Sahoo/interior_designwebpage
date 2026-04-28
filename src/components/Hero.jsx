@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
         {/* Left column */}
         <div className="lg:col-span-7 flex flex-col">
-          <h1 className="font-serif font-medium tracking-[-0.03em] text-black leading-[0.95] text-[52px] sm:text-[68px] md:text-[84px] lg:text-[96px]">
+          <h1 className="font-serif font-medium tracking-[-0.02em] text-black leading-[0.95] text-[52px] sm:text-[68px] md:text-[84px] lg:text-[96px]">
             One Stop Solution
             <br />
             for Elegant
@@ -29,18 +29,7 @@ const Hero = () => {
             </button>
           </div>
 
-          <div className="mt-16 grid grid-cols-3 gap-4 max-w-[520px]">
-            {stats.map((s) => (
-              <div key={s.label}>
-                <div className="font-serif text-[40px] md:text-[48px] font-medium text-black leading-none tracking-tight">
-                  {s.value}
-                </div>
-                <div className="mt-3 text-neutral-500 text-[13px] md:text-[14px]">
-                  {s.label}
-                </div>
-              </div>
-            ))}
-          </div>
+          
         </div>
 
         {/* Right column - images */}
